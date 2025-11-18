@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to top, rgba(0,0,0,0.7)50%,  rgba(0,0,0,0.7)50%) ,url(/BGIMAGE.jpg);
+    background-position: center;
+    background-size: cover ;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.flex-head{
+    display: flex;
+    margin-top: 10px;
+    padding: 10px;
+    
+}
+
+.nav-header{
+    display: flex;    
+}
+.nav-header img{
+    width:45px;
+    height: 45px;
+    /* background-color: white; */
+    border-radius: 50px;
+}
+.nav-header h2{
+    color:coral;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+nav{
+    margin-left: 18%;
+}
+
+.nav-items li  {
+    display: inline-block;
+    padding-left: 40px;
+    
+}
+.nav-items ul{
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: 0.3s ease-in-out;
+}
+a:hover{
+    color: coral;
+}
+
+.nav-form{
+    display: flex;
+    border-radius: 5px;
+    /* margin-left: auto; */
+}
+.nav-form input{
+    margin-left: 50px;
+    background: transparent;
+    border: none;
+    border: 2px solid coral;
+    padding: 5px 15px 5px 15px;
+    
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+}
+
+.nav-form input::placeholder{
+    color: white;
+}
+.nav-form button{
+    border: 2px solid coral;
+    padding: 5px 15px 5px 15px;
+    background-color: coral; 
+    color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.container{
+    display: flex;
+    position: relative;
+    top: 70px;
+}
+
+.left-flex{
+  width: 50%;
+  margin-left: 55px;    
+}
+.left-flex h1{
+    color: white;
+    font-size: 55px;
+
+}
+span{
+    color: coral;
+    font-size: 55px;
+}
+.left-flex p{
+    color: white;
+}
+.left-flex button{
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: coral;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    /* border-radius: 30px; */
+    font-size: 20px;
+}
+
+.right-flex{
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 10px;
+    margin-left: 250px;
+    width: 350px;
+    height: 500px;
+}
+
+.right-flex h2{
+    border: 2px solid white;
+    background-color: white;
+    color: coral;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 45px;
+    margin-right: 45px;
+    border-radius: 12px;
+}
+.right-flex input{
+    display: block;
+    margin-top: 45px;
+    margin-left: 20px;
+    border: none;
+    border-bottom: 2px solid coral;
+    padding: 10px;
+    width: 300px;
+    outline: none;
+    background: transparent;
+}
+
+ .right-flex ::placeholder{
+    color: white;
+    font-size: 20px;
+}
+input:focus{
+    outline: none;
+}
+
+.right-flex button{
+    padding: 10px 120px 10px 120px;
+    margin-top: 25px;
+    margin-left: 30px;
+    border-radius: 10px;
+    background-color: coral;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+}
+.right-flex p{
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+}
+.right-flex a{
+    color: coral;
+    text-decoration: none;
+}
+
+.right-flex a:hover{
+    color:white;
+}
+
+a img {
+    width: 40px;
+    height: 40px;
+    padding: 2px;
+    margin-left: 22px;
+    color: coral;
+    background-color: white; 
+    border-radius: 50px;
+    margin-top: 10px;
+}
+img:focus{
+    color: coral;
+    background-color: white;
+}
+
+/* .left-flex button:hover,
+.right-flex button:hover,
+.nav-form button:hover {
+    background-color: rgba(255, 127, 80, 0.922);
+    color: white;
+    border: 2px solid coral;
+} */
+
+
